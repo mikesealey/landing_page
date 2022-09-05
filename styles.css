@@ -1,0 +1,133 @@
+
+.block-nav {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    align-items: center;
+    padding: 10px 100px;
+    border: 1px dotted red;
+    justify-content: space-between;
+}
+
+.navlink { /* Navigation Links */
+    display: flex;
+}
+
+.navlogo { /* Navigation Logo - Goes in the top left corner */
+    font-weight: bold;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+    color: white;
+    display: flex;
+}
+
+a {
+    color: white
+}
+
+.block1 { /* Block 1  Holds the title to the page, a little description, a sign-up button, and an image*/
+    background-color: #1F2937;
+    padding: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.placeholder-image {
+    background-color: #E5E7EB;
+    width: 45%;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.section-a {
+    max-width: 45%;
+}
+
+.block2 {
+    color: #1F2937;
+    background-color: white;
+    font-size: 18px;
+    font-weight: extra-bold;
+
+
+
+}
+
+.quartet {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10%;
+    font-size: 12px;
+
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+/* Block 3 shows a grey background with some italic text with some fancy quote */
+
+.block3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+
+}
+
+.attribute {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+
+}
+
+/* Block 4 shows a blue box inset, with text inviting the user to sign up*/  
+
+.block4 {
+    background-color: #3882F6;
+    margin: 10%;
+    padding: 10px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup {
+    color: white;
+}
+
+.block4 button {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid white;
+}
